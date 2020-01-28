@@ -2392,6 +2392,7 @@ object-assign
             )
           }
           var k = this.internal.scaleFactor
+          this.setFont('Arimo') /*66666*/
           var fontSize = this.internal.getFontSize() / k
           var splitRegex = /\r\n|\r|\n/g
           var splitText = null
